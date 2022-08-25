@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+    <diagram id="bOq2nhE_Idh3Wv6il-tn" name="Page-1">
+        <mxGraphModel dx="1113" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" value="Host&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="160" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Nav" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="160" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Header&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="200" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="useState" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="190" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;exitX=1.017;exitY=0.386;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="15" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="410" as="sourcePoint"/>
+                        <mxPoint x="490" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="props" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="410" as="sourcePoint"/>
+                        <mxPoint x="280" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="460" y="250"/>
+                            <mxPoint x="230" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="props&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;events" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=12;" connectable="0" vertex="1" parent="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="State management in MFE(Simple Way)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="80" width="360" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
